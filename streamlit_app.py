@@ -3,9 +3,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-"""
-# 
-"""
 
 string = "Games24x7 Betting App!"
 
