@@ -5,8 +5,9 @@ import streamlit as st
 
 
 string = "Games24x7 Betting App!"
+st.set_page_config(page_title=string, layout="centered", initial_sidebar_state= "auto")
 
-st.title(string, anchor=None)
+st.title(string)
 
 choice1 = st.button("Team-A")
 st.write(choice1)
