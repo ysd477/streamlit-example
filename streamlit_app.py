@@ -3,10 +3,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-
-string = "Games24x7 Betting App!"
-st.set_page_config(page_title=string, layout="centered")
-
+"""
+# Games24x7 Betting App!
+"""
 
 choice1 = st.button("Team-A")
 st.write(choice1)
