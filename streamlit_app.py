@@ -5,7 +5,7 @@ import streamlit as st
 
 
 string = "Games24x7 Betting App!"
-st.set_page_config(page_title=string, layout="centered", initial_sidebar_state= "auto")
+st.set_page_config(page_title=string, layout="centered", initial_sidebar_state= "auto", menu_items = None)
 
 st.title(string)
 
