@@ -7,7 +7,7 @@ import streamlit as st
 # Welcome to Games24x7 Betting App!
 """
 
-choice1 = st.button("Team-A)
+choice1 = st.button("Team-A")
 st.write(choice1)
 
 num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
